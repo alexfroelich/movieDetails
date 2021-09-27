@@ -1,6 +1,6 @@
 # MovieDetails
 
-## MovieDetais é um aplpicativo para iOS desenvolvido com a linguagem Swift
+## MovieDetais é um aplicativo para iOS desenvolvido com a linguagem Swift
 
   O objetivo deste projeto era replicar o layout de uma tela do aplicativo ToDoMovies,  para mostrar dados de um filme. Os requisitos eram:
 * Utilizar dados da API do The Movie DB
@@ -14,6 +14,8 @@
 
   Abaixo é possível ver o funcionamento do aplicativo e também a animação de like.
 
+![](stretchyHeader.gif) | ![](heartBeatAnimation.gif)
+------------ | -------------
 
-![](stretchyHeader.gif)
-![](heartBeatAnimation.gif)
+
+
