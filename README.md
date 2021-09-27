@@ -1,3 +1,17 @@
-# movieDetails
-Single-page app that show details of a movie, using movieDB api
+# MovieDetails
+
+## MovieDetais é um aplpicativo para iOS desenvolvido com a linguagem Swift
+
+### O objetivo deste projeto era replicar o layout de uma tela do aplicativo ToDoMovies,  para mostrar dados de um filme. Os requisitos eram:
+* Utilizar dados da API do The Movie DB
+* As informações deveriam vir do endpoint _getMovieDetails_
+* Substituir as informações de _watched_ para _views_, utilizando o valor de _popularity_ e mudando também o ícone
+* Alterar o icone de coração (like), alternando de vazio para cheio, quando clicado
+* Abaixo das informações do filme deve haver uma lista de filmes similares, vindos do endpoint _getSimilarMovies_ 
+
+### Desenvolver esta aplicação foi desafiador, pois envolveu diferentes tarefas, como pegar dados da diferentes endpoint, criar um layout com UICOllectionView com header customizado para mostrar dados e imagem do filme e tratamento dos dados para mostrar corretamente o que foi solicitado.
+### Tambéem foi implementado uma animação quando o botão de like é clicado, similar a que existe no aplicativo original.
+### Abaixo é possível ver o funcionamento do aplicativo e também a animação de like.
+
 ![](stretchyHeader.gif)
+![](heartBeatAnimation.gif)
